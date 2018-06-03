@@ -179,7 +179,7 @@ export class DashboardComponent implements OnInit {
             Active: true,
             Firmware: '1',
             
-            UserId: '1'
+            UserId: 'testuser'
         };
        
             this.apiService.addAssets(body).then(data => {

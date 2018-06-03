@@ -1,0 +1,8 @@
+{
+    "API_URL": "http://assettrackingapi.azurewebsites.net/",
+    "isAlertEnabled": true,
+    "alertIntervalInMilliSeconds": 86400000,
+    "itraqProductUrl": "https://portal.itraq.com/",
+    "tiveProductUrl": "https://platform.tive.io/account/login?ReturnUrl=%2F",
+    "arloProductUrl": "https://arlo.netgear.com/#/login"
+}
