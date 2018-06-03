@@ -1,0 +1,50 @@
+<ng-progress [positionUsing]="'marginLeft'" [minimum]="0.15" [maximum]="1" [speed]="200" [showSpinner]="false" [direction]="'leftToRightIncreased'"
+  [color]="'#FB9700'" [trickleSpeed]="250" [thick]="true" [ease]="'linear'"></ng-progress>
+<div class="loginBody container">
+  <div class="box box1"></div>
+  <div class="box box2"></div>
+  <div class="box box3"></div>
+  <div class="box box4"></div>
+  <div class="box box5"></div>
+  <div class="box box6"></div>
+  <div class="box box7"></div>
+  <div class="box box8"></div>
+  <div class="box box9"></div>
+  <div class="box box10"></div>
+  <div class="box box11"></div>
+  <div class="row justify-content-md-center align-items-md-center h-100">
+    <div class="col-xl-5 col-md-8 col-lg-6 col-sm-12 col-md-offset-3">
+      <div class="text-center logoContainer">
+        <img src="assets/images/Logos_and_Favicons/logo.png" />
+        <h1>Securing your assets through persistent tracking.</h1>
+      </div>
+      <div class="loginContainer">
+        <div class="row justify-content-md-center">
+          <div class="col-md-7 col-md-offset-3 mt-2">
+            <form>
+              <div class="form-group mb-4">
+                <label for="userName">Username</label>
+                <input type="email" class="form-control" id="userName" placeholder="Username" [(ngModel)]="userName" [ngModelOptions]="{standalone: true}">
+              </div>
+              <div class="form-group m-0">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}">
+              </div>
+              <div class="form-group text-right">
+                <a href="javascript:" class="help">Need help logging in?</a>
+              </div>
+              <div class="clearfix mt-5">
+                <label class="m-3" style="color: #ff0000">{{result}}</label>
+                <button type="button" class="btn btn-default float-left">Sign Up</button>
+                <button type="submit" class="btn btn-primary float-right" (click)="loginClicked()">Login</button>
+              </div>
+            
+
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
